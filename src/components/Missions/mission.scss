@@ -8,8 +8,8 @@
   background-color: color-mix(in srgb, #a30c33, #cb0f41);
   margin-top: 100px;
   background-image: url("../../assets/img/missions/mission-background.svg");
-  background-position: center; /* Центрирует фон */
-  background-repeat: no-repeat; /* Избегаем повторения фона */
+  background-position: center; 
+  background-repeat: no-repeat; 
   -webkit-box-shadow: inset 0px 0px 21px -14px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0px 0px 21px -14px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0px 0px 21px -14px rgba(0, 0, 0, 0.4);
@@ -27,7 +27,7 @@
   font-size: 56px;
   color: #ffffff;
   font-weight: 600;
-  margin: 0; /* Убираем отступы вокруг заголовка */
+  margin: 0; 
 }
 
 .mission__subtitle {
@@ -35,6 +35,6 @@
   line-height: 1.5;
   font-size: 32px;
   font-weight: 300;
-  margin-top: 40px; /* Отступ между заголовком и подзаголовком */
+  margin-top: 40px;
   color: #ffffff;
 }
