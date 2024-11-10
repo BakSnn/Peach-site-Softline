@@ -164,11 +164,11 @@
 
         <div class="gallery">
           <div class="gallery__images">
-            <img src="./src/assets/img/corporat-life/Слайд1.png" alt="Image 1" class="gallery__image active">
-            <img src="./src/assets/img/corporat-life/Слайд2.png" alt="Image 2" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд3.png" alt="Image 3" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд4.png" alt="Image 4" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд5.png" alt="Image 5" class="gallery__image">
+            <img src="./src/assets/img/corporat-life/Слайд1.png" alt="Image1" class="gallery__image active">
+            <img src="./src/assets/img/corporat-life/Слайд2.png" alt="Image2" class="gallery__image">
+            <img src="./src/assets/img/corporat-life/Слайд3.png" alt="Image3" class="gallery__image">
+            <img src="./src/assets/img/corporat-life/Слайд4.png" alt="Image4" class="gallery__image">
+            <img src="./src/assets/img/corporat-life/Слайд5.png" alt="Image5" class="gallery__image">
           </div>
         </div>
 
