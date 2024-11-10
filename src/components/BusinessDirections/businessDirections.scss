@@ -1,0 +1,94 @@
+
+
+.business-direction__container {
+  margin-top: 98px;
+}
+
+.business-direction__title {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 55px;
+}
+
+.business-direction__grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 260px);
+}
+
+.business-direction__item {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover .business-direction__image {
+    transform: scale(1.1);
+  }
+
+  &:hover .business-direction__text {
+    transform: translateY(-200%);
+    background-color: transparent;
+  }
+
+  &:hover .business-direction__overlay {
+    opacity: 1;
+  }
+}
+
+.business-direction__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.business-direction__text {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 20px;
+  color: #fff;
+  z-index: 2;
+  pointer-events: none;
+  background-color: rgba(45, 54, 83, 0.6);
+  width: 100%;
+  height: 80px;
+  line-height: 1;
+  overflow: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.business-direction__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 54, 83, 0.8); /* Фон для оверлея */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  line-height: 1.5;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  text-align: left;
+  padding-right: 140px;
+  line-height: 1.4;
+  font-size: 17px;
+}

@@ -1,0 +1,14 @@
+@use "./reset.scss";
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+
+:root {
+  --container-max-width: 1920px;
+  --font-color: #444444;
+}
+
+.page-container {
+  max-width: var(--container-max-width);
+  color: var(--font-color);
+  margin-left: 340px;
+  margin-right: 321px;
+}

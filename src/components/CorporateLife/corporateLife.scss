@@ -1,0 +1,78 @@
+.corporate__container {
+  text-align: right;
+  margin-top: 105px;
+  padding: 0 70px;
+}
+
+.corporate__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.corporate__title {
+  font-size: 56px;
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+  flex: 1;
+}
+
+.corporate__arrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.gallery__images {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery__image {
+  min-width: 100%;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.gallery__image.active {
+  display: block;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 78px;
+  height: 78px;
+  opacity: 0.8;
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 214px;
+  height: 6px;
+  background-color: #bbb;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 70px;
+}
+
+.dot.active {
+  background-color: #a30c33; /* Красный для активной точки */
+}
