@@ -1,4 +1,4 @@
 // vite.config.js
 export default {
-  base: "/",
+  base: "/peach-site-softline/", // Укажите путь к вашему проекту на GitHub Pages
 };
