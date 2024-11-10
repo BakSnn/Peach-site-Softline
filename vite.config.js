@@ -1,4 +1,6 @@
 // vite.config.js
-export default {
-  base: "/peach-site-softline/", // Укажите путь к вашему проекту на GitHub Pages
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/peach-site-softline/", // Замените на ваш репозиторий
+});
