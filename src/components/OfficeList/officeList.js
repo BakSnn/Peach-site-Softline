@@ -1,5 +1,6 @@
 import "./officeList.scss";
-
+import map from "./assets/img/office-list/map/svg";
+import dropdownArrow from "./assets/img/office-list.dropdown-arrow.svg";
 class OfficeListComponent {
   constructor(containerSelector) {
     this.container = document.querySelector(containerSelector);
@@ -143,7 +144,7 @@ class OfficeListComponent {
           <button class="office-list__dropdown-button">
             Офисы Softline
             <div class="office-list__dropdown-icon">
-              <img src="./src/assets/img/office-list/dropdown-arrow.svg" alt="dropdown arrow">
+              <img src="${dropdownArrow}" alt="dropdown arrow">
             </div>
           </button>
           <div class="office-list__dropdown-content">
@@ -173,7 +174,7 @@ class OfficeListComponent {
         </nav>
       </div>
       <div class="office-list__map">
-        <img src="./src/assets/img/office-list/map.svg" alt="map" />
+        <img src="${map}" alt="map" />
         <div class="office-list__cities"></div>
       </div>
     `;
@@ -249,12 +250,11 @@ class OfficeListComponent {
     }
   }
 
-
   addCityMarker(container, city) {
     // Создание маркера
     const cityMarker = document.createElement("div");
     cityMarker.classList.add("city-marker");
-    cityMarker.style.position = "absolute"; 
+    cityMarker.style.position = "absolute";
     cityMarker.style.left = `${city.coordinates[0]}%`;
     cityMarker.style.top = `${city.coordinates[1]}%`;
     cityMarker.title = city.name;
