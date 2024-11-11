@@ -1,12 +1,12 @@
 import "./compensation.scss";
-import dmsIcon from "./src/assets/img/compensation/dms.svg";
-import birthdayIcon from "./src/assets/img/compensation/birthday.svg";
-import phoneIcon from "./src/assets/img/compensation/phone.svg";
-import kettlebellIcon from "./src/assets/img/compensation/kettlebell.svg";
-import handsIcon from "./src/assets/img/compensation/hands.svg";
-import lineIcon from "./src/assets/img/compensation/line.svg";
-import technicIcon from "./src/assets/img/compensation/technic.svg";
-import hypothecIcon from "./src/assets/img/compensation/hypothec.svg";
+import dmsIcon from "@/assets/img/compensation/dms.svg";
+import birthdayIcon from "@/assets/img/compensation/birthday.svg";
+import phoneIcon from "@/assets/img/compensation/phone.svg";
+import kettlebellIcon from "@/assets/img/compensation/kettlebell.svg";
+import handsIcon from "@/assets/img/compensation/hands.svg";
+import lineIcon from "@/assets/img/compensation/line.svg";
+import technicIcon from "@/assets/img/compensation/technic.svg";
+import hypothecIcon from "@/assets/img/compensation/hypothec.svg";
 
 const compensation = document.querySelector(".compensation");
 

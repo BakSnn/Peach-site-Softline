@@ -1,5 +1,3 @@
-
-
 .business-direction__container {
   margin-top: 98px;
 }
@@ -52,21 +50,16 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 25px 20px;
+  padding: 20px;
   color: #fff;
   z-index: 2;
   pointer-events: none;
   background-color: rgba(45, 54, 83, 0.6);
   width: 100%;
-  height: 80px;
-  line-height: 1;
-  overflow: hidden;
-  box-sizing: border-box;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  height: 80px; /* Задаем фиксированную высоту */
+
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
 .business-direction__overlay {
   position: absolute;
   top: 0;
@@ -74,21 +67,20 @@
   width: 100%;
   height: 100%;
   background-color: rgba(45, 54, 83, 0.8);
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  line-height: 1.5;
   pointer-events: none;
   transition: opacity 0.3s ease;
   z-index: 1;
-  text-align: left;
-  padding-right: 140px;
   line-height: 1.4;
-  font-size: 17px;
+  text-align: left;
+  padding-right: 100px;
+  
 }

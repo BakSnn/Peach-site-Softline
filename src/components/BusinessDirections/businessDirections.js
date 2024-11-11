@@ -1,10 +1,10 @@
 import "./businessDirections.scss";
-import softlineSolutionsImg from "./src/assets/img/business-directions/SoftlineSolutions.png";
-import cybersecurityImg from "./src/assets/img/business-directions/Cybersecurity.png";
-import importSubstitutionImg from "./src/assets/img/business-directions/ImportSubstitution.png";
-import cloudSolutionsImg from "./src/assets/img/business-directions/CloudSolutions.png";
-import digitalTransformationImg from "./src/assets/img/business-directions/DigitalTransformation.png";
-import technicalSupportImg from "./src/assets/img/business-directions/TechnicalSupport.png";
+import softlineSolutionsImg from "@/assets/img/business-directions/SoftlineSolutions.png";
+import cybersecurityImg from "@/assets/img/business-directions/Cybersecurity.png";
+import importSubstitutionImg from "@/assets/img/business-directions/ImportSubstitution.png";
+import cloudSolutionsImg from "@/assets/img/business-directions/CloudSolutions.png";
+import digitalTransformationImg from "@/assets/img/business-directions/DigitalTransformation.png";
+import technicalSupportImg from "@/assets/img/business-directions/TechnicalSupport.png";
 
 const mission = document.querySelector(".business-directions");
 
@@ -17,12 +17,12 @@ function initBusinessDirectionsComponent() {
           <div class="business-direction__item">
             <img class="business-direction__image" src="${softlineSolutionsImg}" alt="Softline Solutions">
             <div class="business-direction__text">Решения Softline</div>
-            <div class="business-direction__overlay">ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</div>
+            <div class="business-direction__overlay"><p>ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</p></div>
           </div>
           <div class="business-direction__item">
             <img class="business-direction__image" src="${cybersecurityImg}" alt="Cybersecurity">
             <div class="business-direction__text">Кибербезопасность</div>
-            <div class="business-direction__overlay">Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации.</div>
+            <div class="business-direction__overlay"><p>Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации.</p></div>
           </div>
           <div class="business-direction__item">
             <img class="business-direction__image" src="${importSubstitutionImg}" alt="Import substitution">

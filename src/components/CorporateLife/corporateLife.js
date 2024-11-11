@@ -1,9 +1,12 @@
 import "./corporateLife.scss";
-import slide1 from "./src/assets/img/corporat-life/Слайд1.png";
-import slide2 from "./src/assets/img/corporat-life/Слайд2.png";
-import slide3 from "./src/assets/img/corporat-life/Слайд3.png";
-import slide4 from "./src/assets/img/corporat-life/Слайд4.png";
-import slide5 from "./src/assets/img/corporat-life/Слайд5.png";
+import slide1 from "@/assets/img/corporat-life/Слайд1.png";
+import slide2 from "@/assets/img/corporat-life/Слайд2.png";
+import slide3 from "@/assets/img/corporat-life/Слайд3.png";
+import slide4 from "@/assets/img/corporat-life/Слайд4.png";
+import slide5 from "@/assets/img/corporat-life/Слайд5.png";
+import left from "@/assets/img/corporat-life/arrowLeft.svg";
+import right from "@/assets/img/corporat-life/arrowRight.svg";
+
 function initCorporateLife() {
   const corporateLife = document.querySelector(".corporate-life");
 
@@ -13,10 +16,10 @@ function initCorporateLife() {
         <div class="corporate__arrow">
           <h1 class="corporate__title">Корпоративная жизнь</h1>
           <button class="arrow left-arrow">
-            <img src="./src/assets/img/corporat-life/arrow-left.svg" alt="Left Arrow">
+            <img src="${left}" alt="Left Arrow">
           </button>
           <button class="arrow right-arrow">
-            <img src="./src/assets/img/corporat-life/arrow-right.svg" alt="Right Arrow">
+            <img src="${right}" alt="Right Arrow">
           </button>
         </div>
 
