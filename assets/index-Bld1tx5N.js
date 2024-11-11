@@ -56,12 +56,12 @@
           <div class="business-direction__item">
             <img class="business-direction__image" src="${L}" alt="Softline Solutions">
             <div class="business-direction__text">Решения Softline</div>
-            <div class="business-direction__overlay">ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</div>
+            <div class="business-direction__overlay"><p>ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</p></div>
           </div>
           <div class="business-direction__item">
             <img class="business-direction__image" src="${S}" alt="Cybersecurity">
             <div class="business-direction__text">Кибербезопасность</div>
-            <div class="business-direction__overlay">Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации.</div>
+            <div class="business-direction__overlay"><p>Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации.</p></div>
           </div>
           <div class="business-direction__item">
             <img class="business-direction__image" src="${x}" alt="Import substitution">
