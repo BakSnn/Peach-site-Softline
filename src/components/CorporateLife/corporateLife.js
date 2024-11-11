@@ -1,5 +1,9 @@
 import "./corporateLife.scss";
-
+import slide1 from "./src/assets/img/corporat-life/Слайд1.png";
+import slide2 from "./src/assets/img/corporat-life/Слайд2.png";
+import slide3 from "./src/assets/img/corporat-life/Слайд3.png";
+import slide4 from "./src/assets/img/corporat-life/Слайд4.png";
+import slide5 from "./src/assets/img/corporat-life/Слайд5.png";
 function initCorporateLife() {
   const corporateLife = document.querySelector(".corporate-life");
 
@@ -18,11 +22,11 @@ function initCorporateLife() {
 
         <div class="gallery">
           <div class="gallery__images">
-            <img src="./src/assets/img/corporat-life/Слайд1.png" alt="Image1" class="gallery__image active">
-            <img src="./src/assets/img/corporat-life/Слайд2.png" alt="Image2" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд3.png" alt="Image3" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд4.png" alt="Image4" class="gallery__image">
-            <img src="./src/assets/img/corporat-life/Слайд5.png" alt="Image5" class="gallery__image">
+            <img src="${slide1}" alt="Image1" class="gallery__image active">
+            <img src="${slide2}" alt="Image2" class="gallery__image">
+            <img src="${slide3}" alt="Image3" class="gallery__image">
+            <img src="${slide4}" alt="Image4" class="gallery__image">
+            <img src="${slide5}" alt="Image5" class="gallery__image">
           </div>
         </div>
 

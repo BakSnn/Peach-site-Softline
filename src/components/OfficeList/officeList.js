@@ -1,6 +1,7 @@
 import "./officeList.scss";
-import map from "./assets/img/office-list/map/svg";
-import dropdownArrow from "./assets/img/office-list.dropdown-arrow.svg";
+import map from "./assets/img/office-list/map.svg";
+import dropdownArrow from "./assets/img/office-list/dropdown-arrow.svg";
+
 class OfficeListComponent {
   constructor(containerSelector) {
     this.container = document.querySelector(containerSelector);

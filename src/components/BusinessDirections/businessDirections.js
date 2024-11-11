@@ -1,10 +1,10 @@
 import "./businessDirections.scss";
-import softlineSolutionsImg from "./assets/img/business-directions/SoftlineSolutions.png";
-import cybersecurityImg from "./assets/img/business-directions/Cybersecurity.png";
-import importSubstitutionImg from "./assets/img/business-directions/ImportSubstitution.png";
-import cloudSolutionsImg from "./assets/img/business-directions/CloudSolutions.png";
-import digitalTransformationImg from "./assets/img/business-directions/DigitalTransformation.png";
-import technicalSupportImg from "./assets/img/business-directions/TechnicalSupport.png";
+import softlineSolutionsImg from "./src/assets/img/business-directions/SoftlineSolutions.png";
+import cybersecurityImg from "./src/assets/img/business-directions/Cybersecurity.png";
+import importSubstitutionImg from "./src/assets/img/business-directions/ImportSubstitution.png";
+import cloudSolutionsImg from "./src/assets/img/business-directions/CloudSolutions.png";
+import digitalTransformationImg from "./src/assets/img/business-directions/DigitalTransformation.png";
+import technicalSupportImg from "./src/assets/img/business-directions/TechnicalSupport.png";
 
 const mission = document.querySelector(".business-directions");
 

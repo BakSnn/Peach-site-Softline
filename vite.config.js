@@ -2,5 +2,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/peach-site-softline/", // Замените на ваш репозиторий
+  base: "/Peach-site-Softline/", // Замените на ваш репозиторий
 });
