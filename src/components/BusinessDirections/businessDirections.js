@@ -42,7 +42,7 @@ function initBusinessDirectionsComponent() {
           <div class="business-direction__item">
             <img class="business-direction__image" src="${technicalSupportImg}" alt="Technical support">
             <div class="business-direction__text">Техническая поддержка Softline</div>
-            <div class="business-direction__overlay">200+ инженеров, 24 часа в сутки, 7 дней в неделю, 12 месяцев в году, сервисное партнерство с 30+ мировыми производителями.</div>
+            <div class="business-direction__overlay">100+ инженеров, 24 часа в сутки, 7 дней в неделю, 12 месяцев в году, сервисное партнерство с 30+ мировыми производителями.</div>
           </div>
         </div>
       </div>
